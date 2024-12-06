@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABES Engineering College</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #b3cc57;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .sidebar {
+            float: left;
+            width: 20%;
+            background-color: #4a90e2;
+            padding: 10px;
+        }
+        .sidebar a {
+            display: block;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .sidebar a:hover {
+            background-color: #357ab7;
+        }
+        .content {
+            float: left;
+            width: 75%;
+            padding: 20px;
+        }
+        .content img {
+            width: 100%;
+            height: auto;
+        }
+        .overlay {
+            position: relative;
+            width: 100%;
+        }
+
+        .aa{
+            display: flex;
+        }
+        .overlay img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .overlay a {
+            position: absolute;
+            color: yellow;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .overlay a:hover {
+            color: red;
+        }
+        .department {
+            top: 10px;
+            left: 10px;
+        }
+        .faculty {
+            top: 10px;
+            right: 10px;
+        }
+        .student {
+            bottom: 10px;
+            right: 10px;
+        }
+        .career {
+            bottom: 10px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        ABES Engineering College
+    </div>
+    <div class="aa">
+
+        <div class="sidebar">
+            <a href="#">Departments</a>
+            <a href="#">Faculty</a>
+            <a href="#">Student</a>
+            <a href="#">Career</a>
+        </div>
+        <div class="content">
+            <div class="overlay">
+                <img src="Campus View2.dsd.jpg" alt="Central Image">
+                <a href="#" class="department">Department</a>
+                <a href="#" class="faculty">Faculty</a>
+                <a href="#" class="student">Student</a>
+                <a href="#" class="career">Career</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

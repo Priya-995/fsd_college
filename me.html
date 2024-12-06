@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        li {
+            position: relative;
+        }
+        a {
+            display: block;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            background-color: #45a049;
+        }
+        /* Dropdown menu styling */
+        ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+        }
+        ul ul ul {
+            left: 100%;
+            top: 0;
+        }
+        li:hover > ul {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Front End Design</a>
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a>
+                    <ul>
+                        <li><a href="#">ES6</a></li>
+                        <li><a href="#">React</a></li>
+                        <li><a href="#">Vue</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="#">WordPress Development</a></li>
+    </ul>
+</body>
+</html>
