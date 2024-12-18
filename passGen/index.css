@@ -1,0 +1,28 @@
+.b-c{
+    background-color: bisque;
+    height: 400px;
+    width: 600px;
+    text-align:center;
+    margin: 0px auto;
+    margin-top: 13em;
+
+}
+
+h1{
+    padding-top: 60px;
+    font-size: 50px;
+}
+h4{
+    font-size: 30px;
+}
+button{
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    padding:4px;
+    color:blue;
+    text-decoration: none;
+    border: 2px solid blueviolet;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
